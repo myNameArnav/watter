@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F03ACE2B13562A004E0AF3 /* watterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03ACD2B13562A004E0AF3 /* watterApp.swift */; };
+		18F03AD02B13562A004E0AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03ACF2B13562A004E0AF3 /* ContentView.swift */; };
+		18F03AD22B13562C004E0AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F03AD12B13562C004E0AF3 /* Assets.xcassets */; };
+		18F03AD52B13562C004E0AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */; };
+		18F03AE02B13562C004E0AF3 /* watterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03ADF2B13562C004E0AF3 /* watterTests.swift */; };
+		18F03AEA2B13562C004E0AF3 /* watterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03AE92B13562C004E0AF3 /* watterUITests.swift */; };
+		18F03AEC2B13562C004E0AF3 /* watterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F03ADC2B13562C004E0AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F03AC22B13562A004E0AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F03AC92B13562A004E0AF3;
+			remoteInfo = watter;
+		};
+		18F03AE62B13562C004E0AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F03AC22B13562A004E0AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F03AC92B13562A004E0AF3;
+			remoteInfo = watter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F03ACA2B13562A004E0AF3 /* watter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F03ACD2B13562A004E0AF3 /* watterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterApp.swift; sourceTree = "<group>"; };
+		18F03ACF2B13562A004E0AF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18F03AD12B13562C004E0AF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F03AD62B13562C004E0AF3 /* watter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watter.entitlements; sourceTree = "<group>"; };
+		18F03ADB2B13562C004E0AF3 /* watterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F03ADF2B13562C004E0AF3 /* watterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterTests.swift; sourceTree = "<group>"; };
+		18F03AE52B13562C004E0AF3 /* watterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F03AE92B13562C004E0AF3 /* watterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterUITests.swift; sourceTree = "<group>"; };
+		18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F03AC72B13562A004E0AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AD82B13562C004E0AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AE22B13562C004E0AF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F03AC12B13562A004E0AF3 = {
+			isa = PBXGroup;
+			children = (
+				18F03ACC2B13562A004E0AF3 /* watter */,
+				18F03ADE2B13562C004E0AF3 /* watterTests */,
+				18F03AE82B13562C004E0AF3 /* watterUITests */,
+				18F03ACB2B13562A004E0AF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F03ACB2B13562A004E0AF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F03ACA2B13562A004E0AF3 /* watter.app */,
+				18F03ADB2B13562C004E0AF3 /* watterTests.xctest */,
+				18F03AE52B13562C004E0AF3 /* watterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F03ACC2B13562A004E0AF3 /* watter */ = {
+			isa = PBXGroup;
+			children = (
+				18F03ACD2B13562A004E0AF3 /* watterApp.swift */,
+				18F03ACF2B13562A004E0AF3 /* ContentView.swift */,
+				18F03AD12B13562C004E0AF3 /* Assets.xcassets */,
+				18F03AD62B13562C004E0AF3 /* watter.entitlements */,
+				18F03AD32B13562C004E0AF3 /* Preview Content */,
+			);
+			path = watter;
+			sourceTree = "<group>";
+		};
+		18F03AD32B13562C004E0AF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18F03ADE2B13562C004E0AF3 /* watterTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F03ADF2B13562C004E0AF3 /* watterTests.swift */,
+			);
+			path = watterTests;
+			sourceTree = "<group>";
+		};
+		18F03AE82B13562C004E0AF3 /* watterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F03AE92B13562C004E0AF3 /* watterUITests.swift */,
+				18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */,
+			);
+			path = watterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F03AC92B13562A004E0AF3 /* watter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F03AEF2B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watter" */;
+			buildPhases = (
+				18F03AC62B13562A004E0AF3 /* Sources */,
+				18F03AC72B13562A004E0AF3 /* Frameworks */,
+				18F03AC82B13562A004E0AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watter;
+			productName = watter;
+			productReference = 18F03ACA2B13562A004E0AF3 /* watter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F03ADA2B13562C004E0AF3 /* watterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F03AF22B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watterTests" */;
+			buildPhases = (
+				18F03AD72B13562C004E0AF3 /* Sources */,
+				18F03AD82B13562C004E0AF3 /* Frameworks */,
+				18F03AD92B13562C004E0AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F03ADD2B13562C004E0AF3 /* PBXTargetDependency */,
+			);
+			name = watterTests;
+			productName = watterTests;
+			productReference = 18F03ADB2B13562C004E0AF3 /* watterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F03AE42B13562C004E0AF3 /* watterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F03AF52B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watterUITests" */;
+			buildPhases = (
+				18F03AE12B13562C004E0AF3 /* Sources */,
+				18F03AE22B13562C004E0AF3 /* Frameworks */,
+				18F03AE32B13562C004E0AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F03AE72B13562C004E0AF3 /* PBXTargetDependency */,
+			);
+			name = watterUITests;
+			productName = watterUITests;
+			productReference = 18F03AE52B13562C004E0AF3 /* watterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F03AC22B13562A004E0AF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					18F03AC92B13562A004E0AF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					18F03ADA2B13562C004E0AF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 18F03AC92B13562A004E0AF3;
+					};
+					18F03AE42B13562C004E0AF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 18F03AC92B13562A004E0AF3;
+					};
+				};
+			};
+			buildConfigurationList = 18F03AC52B13562A004E0AF3 /* Build configuration list for PBXProject "watter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F03AC12B13562A004E0AF3;
+			productRefGroup = 18F03ACB2B13562A004E0AF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F03AC92B13562A004E0AF3 /* watter */,
+				18F03ADA2B13562C004E0AF3 /* watterTests */,
+				18F03AE42B13562C004E0AF3 /* watterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F03AC82B13562A004E0AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F03AD52B13562C004E0AF3 /* Preview Assets.xcassets in Resources */,
+				18F03AD22B13562C004E0AF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AD92B13562C004E0AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AE32B13562C004E0AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F03AC62B13562A004E0AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F03AD02B13562A004E0AF3 /* ContentView.swift in Sources */,
+				18F03ACE2B13562A004E0AF3 /* watterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AD72B13562C004E0AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F03AE02B13562C004E0AF3 /* watterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F03AE12B13562C004E0AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F03AEA2B13562C004E0AF3 /* watterUITests.swift in Sources */,
+				18F03AEC2B13562C004E0AF3 /* watterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F03ADD2B13562C004E0AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F03AC92B13562A004E0AF3 /* watter */;
+			targetProxy = 18F03ADC2B13562C004E0AF3 /* PBXContainerItemProxy */;
+		};
+		18F03AE72B13562C004E0AF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F03AC92B13562A004E0AF3 /* watter */;
+			targetProxy = 18F03AE62B13562C004E0AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18F03AED2B13562C004E0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F03AEE2B13562C004E0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		18F03AF02B13562C004E0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = watter/watter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watter/Preview Content\"";
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18F03AF12B13562C004E0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = watter/watter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watter/Preview Content\"";
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		18F03AF32B13562C004E0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watter";
+			};
+			name = Debug;
+		};
+		18F03AF42B13562C004E0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watter";
+			};
+			name = Release;
+		};
+		18F03AF62B13562C004E0AF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = watter;
+			};
+			name = Debug;
+		};
+		18F03AF72B13562C004E0AF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77WP2FH29;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arnavjain.watterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = watter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F03AC52B13562A004E0AF3 /* Build configuration list for PBXProject "watter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F03AED2B13562C004E0AF3 /* Debug */,
+				18F03AEE2B13562C004E0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F03AEF2B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F03AF02B13562C004E0AF3 /* Debug */,
+				18F03AF12B13562C004E0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F03AF22B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F03AF32B13562C004E0AF3 /* Debug */,
+				18F03AF42B13562C004E0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F03AF52B13562C004E0AF3 /* Build configuration list for PBXNativeTarget "watterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F03AF62B13562C004E0AF3 /* Debug */,
+				18F03AF72B13562C004E0AF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F03AC22B13562A004E0AF3 /* Project object */;
+}
