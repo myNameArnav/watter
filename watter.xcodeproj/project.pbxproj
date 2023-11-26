@@ -11,9 +11,6 @@
 		18F03AD02B13562A004E0AF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03ACF2B13562A004E0AF3 /* ContentView.swift */; };
 		18F03AD22B13562C004E0AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F03AD12B13562C004E0AF3 /* Assets.xcassets */; };
 		18F03AD52B13562C004E0AF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */; };
-		18F03AE02B13562C004E0AF3 /* watterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03ADF2B13562C004E0AF3 /* watterTests.swift */; };
-		18F03AEA2B13562C004E0AF3 /* watterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03AE92B13562C004E0AF3 /* watterUITests.swift */; };
-		18F03AEC2B13562C004E0AF3 /* watterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +38,7 @@
 		18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18F03AD62B13562C004E0AF3 /* watter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = watter.entitlements; sourceTree = "<group>"; };
 		18F03ADB2B13562C004E0AF3 /* watterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F03ADF2B13562C004E0AF3 /* watterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterTests.swift; sourceTree = "<group>"; };
 		18F03AE52B13562C004E0AF3 /* watterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F03AE92B13562C004E0AF3 /* watterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterUITests.swift; sourceTree = "<group>"; };
-		18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				18F03ACC2B13562A004E0AF3 /* watter */,
-				18F03ADE2B13562C004E0AF3 /* watterTests */,
-				18F03AE82B13562C004E0AF3 /* watterUITests */,
 				18F03ACB2B13562A004E0AF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,23 +102,6 @@
 				18F03AD42B13562C004E0AF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		18F03ADE2B13562C004E0AF3 /* watterTests */ = {
-			isa = PBXGroup;
-			children = (
-				18F03ADF2B13562C004E0AF3 /* watterTests.swift */,
-			);
-			path = watterTests;
-			sourceTree = "<group>";
-		};
-		18F03AE82B13562C004E0AF3 /* watterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18F03AE92B13562C004E0AF3 /* watterUITests.swift */,
-				18F03AEB2B13562C004E0AF3 /* watterUITestsLaunchTests.swift */,
-			);
-			path = watterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F03AE02B13562C004E0AF3 /* watterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F03AEA2B13562C004E0AF3 /* watterUITests.swift in Sources */,
-				18F03AEC2B13562C004E0AF3 /* watterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +401,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +429,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

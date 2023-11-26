@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct watterApp: App {
+
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("This is a long name") {
+            Button("Quit") {
+                NSApplication.shared.terminate(nil)
+            }.keyboardShortcut("q")
         }
     }
 }
